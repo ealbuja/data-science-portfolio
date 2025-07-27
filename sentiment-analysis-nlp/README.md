@@ -6,6 +6,8 @@ This project builds a machine learning model to classify tweets as **positive** 
 ## Dataset
 The dataset used is the [Sentiment140](https://www.kaggle.com/kazanova/sentiment140) Twitter dataset, containing 1.6 million tweets labeled with sentiment polarity.
 
+The dataset is balanced, with 800,000 positive and 800,000 negative tweets, ensuring fairness in model training and evaluation.
+
 ## Methodology
 - Text preprocessing: cleaning, tokenization, and stopword removal  
 - Feature extraction using TF-IDF vectorization  
